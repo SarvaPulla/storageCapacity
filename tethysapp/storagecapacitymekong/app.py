@@ -10,7 +10,7 @@ class MekongStorageCapcity(TethysAppBase):
     index = 'scm:home'
     icon = 'storagecapacitymekong/images/dam.svg'
     package = 'storagecapacitymekong'
-    root_url = 'scm'
+    root_url = 'storagecapacitymekong'
     color = 'blue'
     description = 'Storage Capacity'
     tags = 'StorageCapacity'
@@ -25,7 +25,7 @@ class MekongStorageCapcity(TethysAppBase):
         UrlMap = url_map_maker(self.root_url)
 
         url_maps = (UrlMap(name='home',
-                           url='scm',
+                           url='storagecapacitymekong',
                            controller='storagecapacitymekong.controllers.home'),
         )
 
