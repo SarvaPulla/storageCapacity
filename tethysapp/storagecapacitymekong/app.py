@@ -7,7 +7,7 @@ class MekongStorageCapcity(TethysAppBase):
     """
 
     name = 'Mekong Storage Capacity'
-    index = 'scm:home'
+    index = 'storagecapacitymekong:home'
     icon = 'storagecapacitymekong/images/dam.svg'
     package = 'storagecapacitymekong'
     root_url = 'storagecapacitymekong'
